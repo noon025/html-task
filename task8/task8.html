@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <form action="a.html" method="post">
+        <label for="tel">number</label> <br>
+        <input type="tel" maxlength="5" id="tel" value="enter any number" name="number"> <hr>
+        <label for="w">country</label> <br>
+        <input type="text" id="w" value="iraq" readonly name="country"> <hr>
+    <div> <h3> what are your hobbies?</h3>
+        <input type="checkbox" id="read" name="read">
+        <label for="read">reading</label> <br>
+        <input type="checkbox" id="draw" name="draw">
+        <label for="draw">drawing</label><br>
+        <input type="checkbox" id="swimming" name="swim">
+        <label for="swimming">swimming</label>
+    </div> <hr>
+    <div> <h3>what type of operating system is used?</h3>
+        <input type="radio" id="window" name="system" value="window">
+        <label for="window">window </label> <br>
+        <input type="radio" id="lenex" name="system" value="lenex">
+        <label for="lenex">lenex</label> <br>
+    </div> <hr>
+    <p dir="rtl"> الفرق بين <br> checkbox و radio <br>
+    "checkbox" يكون كل اختيار له name خاص به ويقبل اكثر من اجابة او اختيار للسؤال  <br>
+    "radio" تكون كل الاختيارات ب name واحد ويمكن الاجابة باختيار واحد فقط (لا يقبل اكثر من اختيار )
+    </p> <hr>
+        <input type="hidden" name="hidden" value="78" id="hidd"> 
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
